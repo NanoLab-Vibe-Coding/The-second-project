@@ -10,7 +10,7 @@
 
 | Main | Favorites |
 |------|-----------|
-| <img src="./assets/main.png" width="300"/> | <img src="./assets/favorites.png" width="300"/> |
+| <img src="./assets/main0.png" width="300"/> | <img src="./assets/favorites.png" width="300"/> |
 
 
 ---
