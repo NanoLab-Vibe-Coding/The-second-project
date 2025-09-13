@@ -3,6 +3,17 @@
 > Codex(OpenAI key) 기반으로 터미널 환경에서 작업한 예제입니다. 
 
 ---
+## 화면 예시
+| Login | Sign Up |
+|-------|---------|
+| <img src="./assets/login.png" width="300"/> | <img src="./assets/submit.png" width="300"/> |
+
+| Main | Favorites |
+|------|-----------|
+| <img src="./assets/main.png" width="300"/> | <img src="./assets/favorites.png" width="300"/> |
+
+
+---
 ## 목차
 
 - [개요](#개요)
