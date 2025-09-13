@@ -71,13 +71,6 @@
   </tr>
 </table>
 
-- 프런트엔드: **React + TypeScript + Next.js (App Router)**  
-- 스타일: **Tailwind CSS**  
-- 오디오: **Howler.js**, YouTube IFrame API  
-- 시각화: Web Audio API (AnalyserNode) 및 YouTube 동기화 모의 웨이브  
-- 배포: Vercel, 기타 Node 호스팅  
-- 데이터(데모): 로컬 파일(`data/*.json`) 기반 (개발용)  
-
 ---
 ## 프로젝트 구조 (요약)
 
