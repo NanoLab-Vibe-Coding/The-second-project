@@ -13,8 +13,7 @@
 - [데이터 파일](#데이터-파일)
 - [뉴스(NewsAPI)](#뉴스newsapi)
 - [YouTube 검색/재생](#youtube-검색재생)
-- [배포](#배포)
-- [주의사항](#주의사항)
+
 
 
 ---
@@ -137,17 +136,3 @@ NEWSAPI_KEY가 설정되어 있으면 서버에서 NewsAPI.org로 프록시 요�
 YOUTUBE_API_KEY를 .env.local에 추가하면 /api/tracks?q=... 요청에서 YouTube 검색 결과를 우선 반환합니다.
 
 YouTube 영상은 임베디드 플레이어로 재생되며, cross-origin 제약으로 인해 브라우저 WebAudio API로 직접 오디오를 분석할 수 없습니다. 대신 재생 시간에 동기화된 시각화(모의 웨이브)를 제공합니다.
-
----
-## 배포
-
-Vercel 또는 원하는 Node호스팅에 배포 가능(Next.js 앱)
-
-정적 사이트 호스팅(예: GitHub Pages)로 배포하려면 Next 앱을 정적으로 내보내는 별도 설정 필요 — 권장하지 않음.
-
----
-## 주의사항
-
-.env.local, data/ 폴더 및 개인 파일은 Git에 커밋하지 마세요. 이미 .gitignore에 포함되어 있습니다.
-
-demo cookie(pl_auth) 방식은 보안적으로 안전하지 않습니다. 실제 서비스에서는 세션/토큰 기반 인증과 HTTPS를 사용하세요.
