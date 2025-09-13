@@ -1,0 +1,18 @@
+/* globals.css
+
+   What changed / Why:
+   - Basic global styles and font smoothing for the demo app.
+   - Tailwind utilities are imported in `tailwind.css` and used throughout.
+*/
+
+@import './tailwind.css';
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

@@ -1,0 +1,34 @@
+# Node / Next / common
+node_modules/
+.next/
+dist/
+out/
+build/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# local data (users, favorites) - demo files
+data/
+playlist/apps/web/data/
+
+# assets/built
+public/build/
+
